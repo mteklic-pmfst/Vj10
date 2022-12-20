@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/poruke
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QtcHJlZGF2YW5qZSIsImlkIjoiNjFiMGMxOGU4YWMzNTYwZjUwNzkyZmExIiwiaWF0IjoxNjM5NDcxODk1fQ.YLw-TV675_8AIb0dg6XRYm6Plyh9iH9rpHY0fKKFPx8
+
+{
+  "sadrzaj": "Poruka sa krivim tokenom",
+  "vazno": true
+}

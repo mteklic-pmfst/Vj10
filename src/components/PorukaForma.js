@@ -15,7 +15,7 @@ const PorukaForma = (props) => {
         postaviUnos('')
     }
   return (
-    <div>
+    <div className="formaDiv">
       <h2>Stvori novu poruku</h2>
       <form onSubmit={novaPoruka}>
         <input value={unosPoruke} onChange={promjenaUnosa} />

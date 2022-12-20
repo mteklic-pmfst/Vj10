@@ -20,7 +20,7 @@ const Promjenjiv = React.forwardRef((props, ref) => {
       <div style={sakrij}>
         <button onClick={promjenaVidljivosti}>{props.natpis}</button>
       </div>
-      <div style={prikazi}>
+      <div style={prikazi} className='promjenjiviSadrzaj'>
         {props.children}
         <button onClick={promjenaVidljivosti}>Odustani</button>
       </div>
